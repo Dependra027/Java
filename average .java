@@ -1,5 +1,4 @@
-package
-
+import java.util.*;
 public class average {
     public static void main(String args[]) {
 
