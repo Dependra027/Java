@@ -20,10 +20,27 @@ public class optimizedPrime {
         return true;
     }
 
+    // Problem2= print all prime number for range n
+    public static void PrintPrime(int r)
+    {
+        for(int i=2;i<=r;i++)
+        {
+            if(isprime(i))
+            {
+                // if true
+                System.out.print(i+"  ");
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String args[])
     {
         System.out.println(isprime(2));
         System.out.println(isprime(5));
+
+        System.out.println();
+       PrintPrime(10); // 2 to 20
     }
     
 }
